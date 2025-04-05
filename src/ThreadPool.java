@@ -25,7 +25,7 @@ public class ThreadPool {
         // Creating a thread pool with 4 threads
         ExecutorService executer = Executors.newFixedThreadPool(4);
         // Submitting 20 tasks (orders) to the thread pool for execution
-        for(int i=0;i<20;i++){
+        for(int i=0;i<100;i++){
             executer.execute(new KitchenStaff("Order " + i));
         }
         // Initiates an orderly shutdown after previously submitted tasks are executed
