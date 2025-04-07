@@ -36,6 +36,7 @@ public class Main {
                     break;
                 case 6:
                     ThreadPool.main(args); // Compares thread pool vs. 100 threads
+                    break;
                 case 7:
                     System.out.println("Exiting... Goodbye!");
                     break;
